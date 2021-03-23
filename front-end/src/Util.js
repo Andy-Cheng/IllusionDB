@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const serverIP = "140.112.179.143";
+export const serverIP = "illusionsdb.com";
 
 // Network functions
 export const getTagTree = (tagType) => {
