@@ -1,6 +1,6 @@
 # Illusion Database UI
-## How to star
+## How to start
 ```
 npm install
 npm start
-'''
+```
