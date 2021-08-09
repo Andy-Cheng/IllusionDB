@@ -116,7 +116,7 @@ dist
 .pnp.*
 
 # Static
-statics/
+#statics/
 
 test_queue*
 
