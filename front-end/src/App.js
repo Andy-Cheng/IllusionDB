@@ -278,7 +278,12 @@ class App extends Component {
                 <IllusionItems selectedTags={(this.state.tagType == "categories")? this.state.selectedCategoryTags:this.state.selectedEffectTags} illusionItems={(this.state.tagType == "categories")? this.state.illusionElementItems:this.state.illusionEffectItems} />
               </div>
             </Content>
-            <Footer style={{  textAlign: 'center', backgroundColor: "#fff" }}>Illusion Database</Footer>
+            <Footer style={{  textAlign: 'center', backgroundColor: "#fff" }}>Illusion Database @<a href="https://ntuhci.org/">NTU HCI Lab</a><br/>
+              We do not own these illusions. Source:<br/>
+              <a href="https://michaelbach.de/ot/index.html">144 Optical Illusions</a>
+              <br/>
+              <a href="http://illusionoftheyear.com/">Best Illusion of The Year Contest</a>
+            </Footer>
           </Layout>
         </Layout>
     );
