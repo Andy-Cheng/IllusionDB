@@ -9,15 +9,11 @@ yarn install
 
 # 3. Download and extract gifs/icons into ./statics/[gifs|icons]
 
-# 4. Start app
+# 4. Import collections from /Database data
+
+# 5. Start app
 node app.js
 
-<!-- # 5. Initialize a new database (name: test)
-cd ./test_data
-node initDB.js
-
-# 6. Import illusions
-python3 ./importIllusions.py -->
 ```
 ## Entrypoints
 * GET
